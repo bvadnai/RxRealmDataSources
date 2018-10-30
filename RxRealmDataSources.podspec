@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name             = 'RxRealmDataSources'
+  s.name             = 'RxRealmDataSourcesKoin'
   s.version          = '0.2.9'
   s.summary          = 'Rx data sources for RxRealm`s observable types'
 
@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
     to bind an RxRealm Observable type to a table or collection view on iOS and macOS
                         DESC
 
-  s.homepage         = "https://github.com/RxSwiftCommunity/RxRealmDataSources"
+  s.homepage         = "https://github.com/bvadnai/RxRealmDataSources"
   s.license          = 'MIT'
   s.author           = { "Marin Todorov" => "marin@underplot.com" }
-  s.source           = { :git => "https://github.com/RxSwiftCommunity/RxRealmDataSources.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/bvadnai/RxRealmDataSources.git", :tag => s.version.to_s }
 
   s.requires_arc = true
 
